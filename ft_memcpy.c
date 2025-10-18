@@ -6,7 +6,7 @@
 /*   By: nouhiyli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 10:00:24 by nouhiyli          #+#    #+#             */
-/*   Updated: 2025/10/15 18:54:34 by nouhiyli         ###   ########.fr       */
+/*   Updated: 2025/10/18 13:17:42 by nouhiyli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	unsigned char	*casted_dest;
+	size_t				i;
+	unsigned char		*casted_dest;
 	const unsigned char	*casted_src;
-	size_t			i;
 
 	i = 0;
 	casted_dest = (unsigned char *) dest;

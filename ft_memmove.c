@@ -6,7 +6,7 @@
 /*   By: nouhiyli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 11:04:43 by nouhiyli          #+#    #+#             */
-/*   Updated: 2025/10/15 22:03:59 by nouhiyli         ###   ########.fr       */
+/*   Updated: 2025/10/18 13:17:10 by nouhiyli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	size_t			i;
-	unsigned char	*casted_dest;
+	size_t				i;
+	unsigned char		*casted_dest;
 	const unsigned char	*casted_src;
 
 	casted_dest = (unsigned char *)dest;

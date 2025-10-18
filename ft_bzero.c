@@ -6,7 +6,7 @@
 /*   By: nouhiyli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 13:28:39 by nouhiyli          #+#    #+#             */
-/*   Updated: 2025/10/15 22:05:34 by nouhiyli         ###   ########.fr       */
+/*   Updated: 2025/10/18 13:16:22 by nouhiyli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,11 @@
 
 void	ft_bzero(void *s, size_t n)
 {
+	size_t			i;
 	unsigned char	*casted_s;
-	size_t		i;
 
 	i = 0;
-	casted_s =  (unsigned char *)s;
+	casted_s = (unsigned char *)s;
 	if (n == 0)
 		return ;
 	while (i < n)
